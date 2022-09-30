@@ -1,0 +1,201 @@
+body {
+    background-color: #182638;
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+.background {
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    transition: filter 0.35s;
+    position: relative;
+
+    background-color: #874356;
+ 
+}
+
+
+
+#top-background {
+    height: 100vh;
+    background-image: url("images/_Melodious\ hearts_\ Painting.jpg");
+    background-color: #182638;
+
+}
+
+#bottom-background {
+    height: 100vh;
+    background-image: url("images/_Melodious\ hearts_\ Painting\ -\ Dark.jpg");
+    background-color: #182638;
+
+}
+
+
+#main-contents-background {
+    /* height: 100vh; */
+    background-image: url("Images/page.jpg");
+}
+
+#down-arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -25px; 
+    transition: opacity 0.5s;
+}
+
+@keyframes fadein {
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+.title {
+    padding: 10px;
+    background-color: teal;
+    
+    font-size: 5em;
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgba(200, 79, 14, 0.916);    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.collapseP {
+    max-width: 60vh;
+    height: 30vh;
+    margin-right: 5vh; 
+    overflow-y: scroll;
+    background-color: white;
+}
+
+#collapseContainer {
+    margin-top: 100px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+
+#contentHead {
+    background-color: #182638cc;
+    color: white;
+    padding: 15px;
+}
+
+#contentList {
+    width: 25vh;
+}
+
+#contents-list {
+    color: black;
+    margin-top: 10px;
+    padding-top: 25px;
+}
+
+#contents-list li {
+    margin-top: 16px;
+}
+
+.contents-header {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+
+    background-color: #874356b2;
+    color: #F6E7D8;
+}
+
+#contents-header {
+    text-align: center;
+    padding: 50px 0px 15px 0px;
+
+    font-family: 'Dancing Script', Times, serif;
+    
+    /* background-color: #874356b2; */
+    color: #F6E7D8;
+}
+
+.poem {
+    text-align: center;
+}
+
+.poem p {
+    padding: 35px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-weight: 500;
+}
+
+#gradient {
+    background: hsla(214, 40%, 16%, 1);
+
+    background: linear-gradient(270deg, hsla(214, 40%, 16%, 1) 0%, hsla(343, 34%, 40%, 1) 100%);
+    
+    background: -moz-linear-gradient(270deg, hsla(214, 40%, 16%, 1) 0%, hsla(343, 34%, 40%, 1) 100%);
+    
+    background: -webkit-linear-gradient(270deg, hsla(214, 40%, 16%, 1) 0%, hsla(343, 34%, 40%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#182638", endColorstr="#874356", GradientType=1 );
+}
+
+#contents-background {
+    height: 100vh;
+    margin: -10px;
+    background-image: url("Images/page.jpg");
+}
+
+#contents-background ul {
+    margin-top: -25px;
+}
+
+#contents-background li {
+    /* border-bottom: solid black 2px; */
+    text-align: center;
+    color: #612f3d;
+    
+}
+
+#contents-background li a {
+    text-decoration: none;
+    color: #874356;
+    font-weight: bold;
+    font-family: 'Dancing Script', serif;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+#contents-background li a:hover {
+    color: #F68989;
+    border-bottom: 1px solid #612f3d;
+}
+
+i {
+    color: #874356;
+}
+
+.poem i:hover {
+    color:#F68989
+}
+
+.h2 a{
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.h2 a:hover {
+    color: #3c6294;
+}
+
+.h2 a i {
+    color: #3c6294;
+}
