@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MDCGWTRNP"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+        console.log("test")
+    gtag('config', 'G-4MDCGWTRNP');
+    </script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +21,23 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="style.css">
 
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
     </style> 
 
+
+<link rel="stylesheet" href="style.css">
+
     <title>Just Friends</title>
 </head>
+
 
 <body>
     <!-- Top background container -->
     <div class="background" id="top-background">
         <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-            <section class="title">
+            <section id="title">
                 Just friends
             </section>
         </div>
@@ -71,45 +84,35 @@
 
         <div class="collapse one" id="aboutCollapse">
             <div class="container text-center p-5">
-                <div class="d-flex justify-content-center" id="collapseContainer">
+                <div class="" id="collapseContainer">
                     <p class="collapseP lead bg-dark text-light rounded p-3">
-                        Just Friends is a colleciton of poetry written and published by Angel Chidera Ifyawuchi.
-                        It has been featured in numerous poetry journals including Paper Laterns.
+                        Just Friends is a collection of work I put togther during the first Covid lockdown. I have been protective with my words but some time ago I decided I wanted to share my work publicly. So, now these poems are yours :)
                     </p>
 
-                    <img class="img-fluid border-0 rounded" src="images/IMG-3394.jpg" style="width: 32vh" alt="">
+                    <!-- <img class="img-fluid border-0 rounded" src="images/IMG-3394.jpg" style="width: 32vh" alt=""> -->
                 </div>
             </div>
         </div>
 
         <div class="collapse two" id="aboutCollapse">
-            <div class="container text-center p-5">
-                <div class="d-md-flex justify-content-center" id="collapseContainer">
-                    <div class="card bg-dark text-light p-5">
-                        <p class="bg-dark text-light lead">
-                            If you would like to book a reading, <br> inquire about written copies or feature this work in a journal please reach out
+            <div class="container text-center">
+                <div class="" id="collapseContainer">
+                    <div class="bg-dark test">
+                        <p class="lead">
+                            If you would like to book a reading, inquire about written copies or feature this work in a journal please reach out
                         </p>
 
                         <hr>
 
-                        <div class="h2">
-                            <a href="#" class=""><i class="bi bi-instagram"></i> Instagram</a>
-                        </div>
 
-                        <hr>
+                        <div class="lead">
 
-                        <div class="h2">
-                            <a href="#" class=""><i class="bi bi-envelope"></i>
-                                angelifyawuchi23@gmail.com
-                            </a>
-                        </div>
 
-                        <hr>
+                            <p><i class="bi bi-telephone"></i>089 961 1677</p>
 
-                        <div class="h2">
-                            <a href="#" class=""><i class="bi bi-telephone"></i>
-                                089 961 1677
-                            </a>
+                            <p><i class="bi bi-envelope"></i> angelifyawuchi23@gmail.com</p>
+
+                            <a href="https://www.instagram.com/angelbridget/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
                         </div>
                     </div>
                 </div>
@@ -121,9 +124,17 @@
             
     <div id="gradient"> <h1 id="contents-header">TABLE OF CONTENTS</h1></div>
 
-    <div class="background" id="contents-background">
+    <!-- <div class="background" id="contents-background">
         <section>
-            <div id="contents-list" class="d-flex flex-column min-vh-100  align-items-center">
+            
+        </section>
+    </div> -->
+    
+
+
+    <div class="background" id="main-contents-background">
+        <section>
+            <div id="contents-list" class="d-flex flex-column min-vh-100    align-items-center">
                 <ul>
                     <li><a href="#ode-to-my-anger">Ode to my anger (Magic)</a></li>
                     <li><a href="#on-humanity">On humanity</a></li>
@@ -144,378 +155,368 @@
                     <li><a href="#just-friends">Just friends</a></li>
                 </ul>
             </div>
-        </section>
-    </div>
-    
 
-
-    <div class="background" id="main-contents-background">
-        <section>
             <div class="poem">
                 <h1 class="contents-header" id="ode-to-my-anger"> Ode to my Anger</h1>
 
                 <p class="lead">
-                    I didn’t want to write this poem, I didn’t want to be labelled the “angry black girl”, but I am
-                    angry.
-                    I’m angry because you say I’m pretty….. for a black girl, like that is not something magical in
-                    itself. A club many can’t even approach.
-                    I’m angry because I don’t see enough people who look like me on TV playing ain roles, not just the
-                    sassy best friend.
-                    I’m angry that my skin has to play a factor in each decision I make.
-                    I’m angry that the “angry black girl” is even a stereotype like we have nothing to be angry about.
-                    Like we don’t see brothers dying every day.
-                    I will never be ashamed of this anger I feel inside, I was born into it , moulded by it.
-                    When will the world realize there is a person attached to this black woman?
-                    I do not wish to fiercely hold onto life, only dance through its seasons. Dance through life.
+                    I didn’t want to write this poem, I didn’t want to be labelled the “angry black girl", but I am
+                    angry<br>
+                    I’m angry because you say I’m pretty…
+                    for a black girl, like that is not something magical in
+                    itself<br> A club many can’t even approach<br>
+                    I’m angry because I don’t see enough people who look like me on TV playing main roles, not just the
+                    sassy best friend<br>
+                    I’m angry that my skin has to play a factor in each decision I make<br>
+                    I’m angry that the “angry black girl" is even a stereotype like we have nothing to be angry about<br>
+                    Like we don’t see brothers dying every day<br>
+                    I will never be ashamed of this anger I feel inside, I was born into it, shaped by it<br>
+                    When will the world realize there is a person attached to this black woman?<br>
+                    I do not wish to fiercely hold onto life, only dance through its seasons<br> Dance through life<br>
                     I want to write odes to the black boys who die just to get their lives on track, odes to all the
-                    black girls who aren’t pretty… but beautiful.
-                    And perhaps the world will listen .
-                    I know I am feared, my grace, my excellence, my intelligence. When you put an angry black girl in
-                    this world, she is a force to be reckoned with.
-                    The next time someone tries to break me with their words, lips drawn and calls me “angry” I will
-                    just laugh and thank them.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    black girls who aren’t pretty… but beautiful<br>
+                    And perhaps the world will listen <br>
+                    I know I am feared, my grace, my excellence, my intelligence<br> When you put an angry black girl in
+                    this world, she is a force to be reckoned with<br>
+                    The next time someone tries to break me with their words, lips drawn and calls me “angry" I will
+                    just laugh and thank them
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="on-humanity">On Humanity</h1>
 
                 <p class="lead">
-                    I will still try and write about this world even when my hands shake. My father, my brother, they
+                    I will still try and write about this world even when my hands shake<br> My father, my brother, they
                     don’t float like
-                    they used to before. They were too much body, too much bone , too much laughter, too much skin, or
+                    they used to before<br> They were too much body, too much bone , too much laughter, too much skin, or
                     too dangerous,
-                    too much thug, or too suspicious, walking, driving, living, Being. When will they be enough? Or not
-                    be too much?
-                    How can this “Black” blood be so cavalier yet graceful?
+                    too much thug, or too suspicious, walking, driving, living, being<br> When will they be enough?<br> Or not
+                    be too much?<br>
+                    How can this “Black" blood be so cavalier yet graceful?<br>
                     I still don’t fully know what privilege is, but I believe this skin is a gift, I just wonder when
                     others will start
-                    to see that.
-                    <br>- For George Floyd.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    to see that<br>
+                    <br>- For George Floyd
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
 
                 <h1 class="contents-header" id="brother-and-father">My Brother and Father left on Wednesday Morning</h1>
 
                 <p class="lead">
                     I woke up on a Wednesday morning to the world running still, the rain was shy as it fell from my
-                    window. My mirror was
-                    exact yet broken. The dust that rose from my wry window still swallowed me whole, drowned me in the
+                    window<br> My mirror was
+                    exact yet broken<br> The dust that rose from my wry windowsill swallowed me whole, drowned me in the
                     sound of missed
-                    laughter. I tried to rearrange the small things that laid in my room, those inanimate joy givers.
-                    Yet my bleak curtains that day would not move. The sun would not enter and maintain my morality. I
+                    laughter<br> I tried to rearrange the small things that laid in my room, those inanimate joy givers<br>
+                    Yet my bleak curtains that day would not move<br> The sun would not enter and maintain my morality<br> I
                     walked onto the
-                    broken step, and it cried louder that day reminding me of my weight.
-                    Each room, silent filled with cobwebs and stories of past lives. The room beside mine was cold for
+                    broken step, and it cried louder that day reminding me of my weight<br>
+                    Each room, silent filled with cobwebs and stories of past lives<br> The room beside mine was cold for
                     it belonged to a man
-                    who once was. I went to my parents room to try and find my own hero’s and isolate them too with a
+                    who once was<br> I went to my parents room to try and find my own hero’s and isolate them too with a
                     scope of my own
                     individualism, but when I go outside and look above this empty little house I see the sky, with pale
                     clouds offended
-                    that there are no crowds left to come and see. Yet that’s where my father and my brother explore.
+                    that there are no crowds left to come and see<br> Yet that’s where my father and my brother explore<br>
                     Where they can be men,
-                    or maybe “say” they are being men, I don’t quite remember. But then I must return to my own room 6
+                    or maybe <em>say</em> they are being men, I don’t quite remember<br> But then, I must return to my own room 6
                     meters away from this
-                    unknown force where still, the curtain has not moved, but my bed has been made.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    unknown force where still, the curtain has not moved, but my bed has been made
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
 
                 <h1 class="contents-header" id="Ode-to-my-long">Ode to my long poem</h1>
 
                 <p class="lead">
-                    When will my poetry be enough but not be too much
-                    When can I write to make a point but not take that point too far?
-                    If my poem is published, is it still mine? But if I write a poem and nobody hears it, did I even
-                    write it?
-                    So when can I just spill my body onto the page? Let the words trickle from my mouth like honey.
-                    When can I stop writing my poetry for the award, the show, the expectation and start writing for me?
-                    Perhaps there will be a time where I can write a poem as long as I want. A manifesto of the human
+                    When will my poetry be enough but not be too much<br>
+                    When can I write to make a point but not take that point too far?<br>
+                    If my poem is published, is it still mine?<br> But if I write a poem and nobody hears it, did I even
+                    write it?<br>
+                    So when can I just spill my body onto the page?<br> Let the words trickle from my mouth like honey<br>
+                    When can I stop writing my poetry for the award, the show, the expectation and start writing for me?<br>
+                    Perhaps there will be a time where I can write a poem as long as I want<br> A manifesto of the human
                     spirit of a eulogy to
-                    the person I once was. I want to look at my poem and not become an instant critic for your eyes. I
+                    the person I once was<br> I want to look at my poem and not become an instant critic for your eyes<br> I
                     want to look at my
-                    poem and never have to count the lines. So maybe my poems are too long, or too short, or too
-                    boring….
-                    Does that mean that they aren’t art anymore? Are they not good? Are they even poerty?
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    poem and never have to count the lines<br> So maybe my poems are too long, or too short, or too
+                    boring…<br>
+                    Does that mean that they aren’t art anymore?<br> Are they not good?<br> Are they even poerty?
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="poor-boat">A conversation with a poor boat</h1>
 
                 <p class="lead">
-                    Teach me how to sink like you, I said to the historic wreck. The Weeping Lady capsized and sank in
+                    Teach me how to sink like you, I said to the historic wreck<br> The Weeping Lady capsized and sank in
                     2001, washed away
-                    without a trace.
+                    without a trace<br>
                     Teach me how to disappear, to make people feel something, to make people love the idea of wretched
                     wood and disassembled
-                    doors and Baltic ballrooms and scattered sails.
-                    The disgraced boat let out an anguished sigh “why must you sink? Are you not human?” she asked me.
+                    doors and Baltic ballrooms and scattered sails<br>
+                    The disgraced boat let out an anguished sigh<br> “why must you sink? Are you not human?" she asked me<br>
                     “Don’t you have this
                     ability to stay afloat? With those powerful lungs and kicking legs, are you not aware of the
                     buoyancy of your own
-                    heart?”
-                    I have decided to sink. I told her that I am tired of this shore, getting caught up in this tangle
+                    heart?"<br>
+                    I have decided to sink<br> I told her that I am tired of this shore, getting caught up in this tangle
                     of people’s lives so
-                    I must leave and sink. The boat laughed “Is this the only shore you have seen? Is this the only sea
-                    you have swam in?
-                    You, human, do not see how lucky you are, how much freedom you have. I was brought up a poor boat. I
+                    I must leave and sink<br> The boat laughed “Is this the only shore you have seen?<br> Is this the only sea
+                    you have swam in?<br>
+                    You, human, do not see how lucky you are, how much freedom you have<br> I was brought up a poor boat<br> I
                     wept each night and
-                    disguised it as waves. I was engulfed by my only love swallowed by the icy cold water of the ocean I
-                    once rejoiced in. I
-                    have lived here for 19 years collecting skeletons and singing siren songs. How dare you come to my
+                    disguised it as waves<br> I was engulfed by my only love, swallowed by the icy cold water of the ocean I
+                    once rejoiced in<br> I
+                    have lived here for 19 years collecting skeletons and singing siren songs<br> How dare you come to my
                     floor and ask me to
-                    teach you how to sink? How to do something I haven’t even taught myself”.
+                    teach you how to sink?<br> How to do something I haven’t even taught myself"<br>
                     The boat uttered “you are human, you are not a boat, you are not sinkable, you contain multitudes,
                     you are a poet, so
-                    write, write sonnets and odes and eulogies, write until the ink in your pen has run its course.
+                    write, write sonnets and odes and eulogies, write until the ink in your pen has run its course<br>
                     Write about worlds where
-                    you are happy where shame is banned where love is the air, and you are free to breathe deep. Write
-                    everything, write
-                    nothing, just write and live, live by the sun and don’t listen to my moody push and pull. Do not
+                    you are happy, where shame is banned, where love is the air, and you are free to breathe deep<br> Write
+                    everything, and then write more, just write and live, live by the sun and don’t listen to my moody push and pull<br> Do not
                     sink, do not sink, do
-                    not sink”.
-                    That is what I heard that night, the night I went and asked a boat to teach me how to sink, so here
-                    I am, writing an ode
-                    to that poor boat.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    not sink"
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
 
                 <h1 class="contents-header" id="progress-season">The inevitable progression of season</h1>
 
                 <p class="lead">
-                    She opened her wry eyes and was surrounded by July. Its blue skies soft so sure of themselves she
+                    She opened her gentle eyes and was surrounded by July<br> Its blue skies soft so sure of themselves she
                     looks up to them
-                    and asks for advice. The peaches dripped in honey hang from lame trees asking me to pick them. The
+                    and asks for advice<br> The peaches dripped in honey hang from lame trees asking me to pick them<br> The
                     sun so
-                    effortlessly turns the girls hair blonde, and the boys get lost in hour long games of football. But
+                    effortlessly turns the girls hair blonde, and the boys get lost in hour long games of football<br> But
                     not her, she has
                     begun to write in the back garden, the trees with their lanky and unsure arms tell her what to
-                    write. But alas July
-                    loses itself and turns into chilly August which trickles into September. Those beautiful July leaves
+                    write<br> But alas July
+                    loses itself and turns into chilly August which trickles into September<br> Those beautiful July leaves
                     get too
-                    vulnerable and begin to fall. The moon starts to feel more confident. The girls have cut their hair
+                    vulnerable and begin to fall<br> The moon starts to feel more confident<br> The girls have cut their hair
                     and the boys
-                    stay at home. Now each September night feels like Sunday stuck on repeat.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    stay at home<br> Now each September night feels like Sunday stuck on repeat
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="teenage">The unexplained science of teenage girls</h1>
 
                 <p class="lead">
-                    I still don’t know what it means to be a teenage girl. All I hear is contradictions. What is a
+                    I still don’t know what it means to be a teenage girl<br> All I hear is contradictions<br> What is a
                     teenage girl supposed
-                    to look like? Are my knees supposed to shake with insecurity. Do I swoon over celebrities, whisper
+                    to look like?<br> Are my knees supposed to shake with insecurity<br> Do I swoon over celebrities, whisper
                     with my friends
-                    about the people we pass by? Why is it men who laugh when I do these things? Call me girly. So, I
+                    about the people we pass by?<br> Why is it men who laugh when I do these things?<br> Call me girly<br> So, I
                     stand up straight
-                    with confidence. Spend my time writing, spilling my thoughts onto paper, I keep a straight face with
-                    my friends. But
-                    those same men who still laugh, call me bossy. So, what is a teenage girl supposed to look like? And
+                    with confidence<br> Spend my time writing, spilling my thoughts onto paper, I keep a straight face with
+                    my friends<br> But
+                    those same men who still laugh, call me bossy<br> So, what is a teenage girl supposed to look like?<br> And
                     why is it men
-                    that get to decide the answer?
-                    The science of teenage girls will remain a mystery. Today I will question everything about myself
+                    that get to decide the answer?<br>
+                    The science of teenage girls will remain a mystery<br> Today I will question everything about myself
                     but tomorrow I
-                    will continue to grow. Perhaps I am just that, a contradiction.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    will continue to grow<br> Perhaps I am just that, a contradiction
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="1985">1985 in the south of France</h1>
                 <p class="lead">
-                    That summer smelled like peaches and honey. I remember we cycled through the rundown streets. You
+                    That summer smelled like peaches and honey<br> I remember we cycled through the rundown streets<br> You
                     had your arms out
-                    and danced in the pale air. There was something immersive about your skin, like it was painted by
+                    and danced in the pale air<br> There was something immersive about your skin, like it was painted by
                     camera flashes at
-                    each moment. You spoke to me in broken English, and it felt just like a song. When you sang to me
+                    each moment<br> You spoke to me in broken English, and it felt just like a song<br> When you sang to me
                     each night on that
-                    balcony, I called it love or maybe I called it life, I can’t remember. In one moment, you said you
+                    balcony, I called it love or maybe I called it life, I can’t remember<br> In one moment, you said you
                     loved me, and the
                     sun kissed my skin, and I could smell those peaches and I could taste the honey almost like it
                     tricked from my
-                    mouth. And in another we jumped into the cold sea, hand in hand. Never coming back up for air.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    mouth<br> And in another we jumped into the cold sea, hand in hand<br> Never coming back up for air
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="stars">A conversation with the stars</h1>
 
                 <p class="lead">
-                    Once in a while, I like to leave my small town and sit on the outskirts of the city. I watch cars
+                    Once in a while, I like to leave my small town and sit on the outskirts of the city<br> I watch cars
                     drive down the
                     motorway under the dim of broken streetlights and in that moment, I am filled with a glance of
-                    solitude and bliss.
-                    In that moment the stars try and understand the enigma that is me. They compare me to the moon. They
+                    solitude and bliss<br>
+                    In that moment, the stars try and understand the enigma that is me<br> They compare me to the moon<br> They
                     say I
                     understand what I feels like to be untouchable, an unbounded conundrum no celestial body could
-                    grasp. The stars,
-                    they thank me for giving them a chance to shine brighter when I am not feeling whole. You are a kind
-                    body, they say.
-                    For even when you are deflated, you let us show off our glow. You give us the opportunity to hear
+                    grasp<br> The stars,
+                    they thank me for giving them a chance to shine brighter when I am not feeling whole<br> You are a kind
+                    body, they say<br>
+                    For even when you are deflated, you let us show off our glow<br> You give us the opportunity to hear
                     wishes and sirens
-                    from those who are smart enough to believe we are listening. You let us fall until we find where we
+                    from those who are smart enough to believe we are listening<br> You let us fall until we find where we
                     truly belong in
-                    this beautifully chaotic mess, we call a galaxy. Is that not what unlimited possibility is about?
+                    this beautifully chaotic mess, we call a galaxy<br> Is that not what unlimited possibility is about?<br>
                     They ask me, where
-                    to next? And I can only think of the path that is discovered. When my jagged pen hits the paper. It
+                    to next?<br> And I can only think of the path that is discovered<br> When my jagged pen hits the paper<br> It
                     is on that path,
-                    I can truly find my way home.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    I can truly find my way home
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="love-of-my-life">I am the love of my life</h1>
 
                 <p class="lead">
-                    My body will soon leave me. My soul will be left exposed. I won’t have these buckling knees and
-                    shaking hands. My
-                    body will soon leave me. I will lose my heart. I will no longer feel stone cold. Perhaps then, I
+                    My body will soon leave me<br> My soul will be left exposed<br> I won’t have these buckling knees and
+                    shaking hands<br> My
+                    body will soon leave me<br> I will lose my heart<br> I will no longer feel stone cold<br> Perhaps then, I
                     will be the love of
-                    my life.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    my life
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="scary">In defence of scary movies</h1>
 
                 <p class="lead">
-                    The world is full of contradictions. A movie meant to frighten taught me about love. How loneliness
+                    The world is full of contradictions<br> A movie meant to frighten taught me about love<br> How loneliness
                     makes us do crazy
-                    things. I remember hearing the shrill screams on the big screen. It reminded me of lust. Oh, to be
+                    things<br> I remember hearing the shrill screams on the big screen<br> It reminded me of lust<br> Oh, to be
                     that high, to have my
-                    heartbeat that fast, to feel adrenaline, feel something. In defence of scary movies, they never told
+                    heartbeat that fast, to feel adrenaline, feel something<br> In defence of scary movies, they never told
                     us this isn’t how
-                    we should love. No matter what, he always gets the girl, they always end up entangled. Is that not
-                    what love is? A
-                    series of moments, just like a movie.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    we should love<br> No matter what, he always gets the girl, they always end up entangled<br> Is that not
+                    what love is?<br> A
+                    series of moments, just like a movie
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="black">Black</h1>
 
                 <p class="lead">
-                    “You’re so black” and just like that the skin I once cherished becomes my biggest disgrace. Oh,
+                    “You’re so black" and just like that the skin I once cherished becomes my biggest disgrace<br> Oh,
                     repugnant thing! Why
                     must you cover me like this, swallow me whole, leave no room, for light, for pure, for goodness, for
-                    holy innocence. Why
-                    can’t you make me decent, my must you be a constant memory of hardship, of difficulty. Why must you
-                    make me different?
-                    Subject to even more criticism. But perhaps this is most true, this skin so black, acts a shield,
+                    holy innocence<br> Why
+                    can’t you make me decent, my must you be a constant memory of hardship, of difficulty<br> Why must you
+                    make me different?<br>
+                    Subject to even more criticism<br> But perhaps this is most true, this skin so black, acts a shield,
                     protection from the
-                    hurt you throw at me. “Big lips” a reminder that I did not choose to be a poet but rather was given
+                    hurt you throw at me<br> “Big lips" a reminder that I did not choose to be a poet but rather was given
                     these lips for a
-                    reason. You must ever wonder why such tender beauty prefers the darkness. How can such “black” blood
+                    reason<br> You must ever wonder why such tender beauty prefers the darkness<br> How can such “black" blood
                     be so mild and
-                    mellow and beautiful. Such golden sweetness, the heavy sun laying itself to rest on our skin. I know
+                    mellow and beautiful<br> Such golden sweetness, the heavy sun laying itself to rest on our skin<br> I know
                     your God sits in
-                    disposition, this blessing, this “black” magic he graced upon us to wear as skin being called into
-                    question. Look how
-                    they failed you, with their fluttering thumbs and ignorance, failed your marvellous “black”
-                    creations.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    disposition, this blessing, this “black" magic he graced upon us to wear as skin being called into
+                    question<br> Look how
+                    they failed you, with their fluttering thumbs and ignorance, failed your marvellous “black"
+                    creations
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="breathe">Learning to breathe on my own</h1>
 
                 <p class="lead">
-                    The day we stopped talking I had to learn to breathe on my own. When you kissed me, you introduced
-                    air into my lungs.
-                    You made me feel whole, I swear I was swimming in your grace. But you left and it felt like I was
-                    sinking. I couldn’t
-                    stop free falling. I was in an ice-cold ocean, alone. I had to teach my lungs how to work by
-                    themselves. I had to remind
-                    myself o the buoyancy of the human heart. I try and try to find the silver lining of our tethering.
+                    The day we stopped talking I had to learn to breathe on my own<br> When you kissed me, you introduced
+                    air into my lungs<br>
+                    You made me feel whole, I swear I was swimming in your grace<br> But you left and it felt like I was
+                    sinking<br> I couldn’t
+                    stop free falling<br> I was in an ice-cold ocean, alone<br> I had to teach my lungs how to work by
+                    themselves<br> I had to remind
+                    myself o the buoyancy of the human heart<br> I try and try to find the silver lining of our tethering<br>
                     It’s hard to
-                    remember sometimes. But you gave me the confidence to love knowing I would it make it to shore
+                    remember sometimes<br> But you gave me the confidence to love knowing I would it make it to shore
                     somehow
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="tired">Tired</h1>
 
                 <p class="lead">
-                    You ask me “Have I slept in the last few days?” say I look very “tired”. I shrug and stay silent.
+                    You ask me “Have I slept in the last few days?"<br> say I look very “tired"<br> I shrug and stay silent<br>
                     The bags under my eyes
-                    start to feel ashamed. They try to hide themselves under cucumber face masks. But every so often I
+                    start to feel ashamed<br> They try to hide themselves under cucumber face masks<br> But every so often I
                     tell my bags to show
-                    themselves and rejoice in what they are. They are suitcases for the stories my mouth cannot tell.
+                    themselves and rejoice in what they are<br> They are suitcases for the stories my mouth cannot tell<br>
                     They are stars that
                     work so closely with the moon and the clouds and the streetlights to help me broil up a concoction
                     of words that breathe
-                    life into ends so deeply asleep. They are proof that the best poetry is written at night. That some
+                    life into ends so deeply asleep<br> They are proof that the best poetry is written at night<br> That some
                     people fear the
-                    stillness and sorrow that 3 A.M draws out. That the glow of a kitchen oven and the ticking of a
-                    clock can be deafening.
-                    So, if you talk to me and I seem “far away” it is because I am. I am merely imagining a place no
-                    dream can bring me. A
-                    place where that ticking clock is a radio blaring the most freeing music. Where love is the air, and
+                    stillness and sorrow that 3 A.M draws out<br> That the glow of a kitchen oven and the ticking of a
+                    clock can be deafening<br>
+                    So, if you talk to me and I seem “far away" it is because I am<br> I am merely imagining a place no
+                    dream can bring me<br> A
+                    place where that ticking clock is a radio blaring the most freeing music<br> Where love is the air, and
                     I am breathing so
-                    recklessly. A place where that oven glow is the sun, luminous and bright. It’s long days like arms,
+                    recklessly<br> A place where that oven glow is the sun, luminous and bright<br> It’s long days like arms,
                     swaying with me in
-                    the streets. You see in this place the sun dances with me in ways the moon dares to understand. So
+                    the streets<br> You see in this place the sun dances with me in ways the moon dares to understand<br> So
                     yeah, maybe I do look
-                    “tired”, but I have a damn good reason to.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    “tired", but I have a damn good reason to
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="rapture">And what will you say when rapture comes?</h1>
 
                 <p class="lead">
-                    What will I say? How should I explain myself? What good will my vanity be? I hope to feel some
-                    elation, feel something.
-                    But what if he asks about the crimson on my hands, how will I explain myself? Should I compare my
-                    hands to his? What
-                    will I say? What good will my vanity be? This pride will have no meaning. My words will no longer
-                    carry weight. I cannot
-                    use my poems as payment, as protection, so what good will my vanity be? What if I forget my tongue?
+                    What will I say?<br> How should I explain myself?<br> What good will my vanity be?<br> I hope to feel some
+                    elation, feel something<br>
+                    But what if he asks about the crimson on my hands, how will I explain myself?<br> Should I compare my
+                    hands to his?<br> What
+                    will I say?<br> What good will my vanity be?<br> This pride will have no meaning<br> My words will no longer
+                    carry weight<br> I cannot
+                    use my poems as payment, as protection, so what good will my vanity be?<br> What if I forget my tongue?<br>
                     Forget how to
-                    explain the moment I broke. I must teach myself to say nothing at all.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    explain the moment I broke<br> I must teach myself to say nothing at all
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="open-letter"> An open letter to isolation</h1>
 
                 <p class="lead">
-                    The isolation speaks to me and through me, asking “Where to little girl?” I can not ignore the
+                    The isolation speaks to me and through me, asking “Where to little girl?"<br> I can not ignore the
                     isolation, it is
-                    deafening. I do not want to furiously exist, only sway through the motions. When the isolation
-                    speaks. I listen
-                    fiercely. I still can not answer. I can not find my direction. I will look for a path where I can
+                    deafening<br> I do not want to furiously exist, only sway through the motions<br> When the isolation
+                    speaks<br> I listen
+                    fiercely<br> I still can not answer<br> I can not find my direction<br> I will look for a path where I can
                     slowly trip my way
-                    back to myself. Rather naively, I wonder some nights, can isolation tell me where to go?
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    back to myself<br> Rather naively, I wonder some nights, can isolation tell me where to go?
                 </p>
+
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
 
                 <h1 class="contents-header" id="just-friends">Just friends</h1>
 
                 <p class="lead">
-                    Today I will have you around, I will allow myself to write about you. My love for you mirrors the
+                    Today I will have you around, I will allow myself to write about you<br> My love for you mirrors the
                     weather, changing from
-                    form to form. So indecisive yet so sure of some beauty. My love for you mirrors Mother Nature. She
+                    form to form<br> So indecisive yet so sure of some beauty<br> My love for you mirrors Mother Nature<br> She
                     has so much intimacy
-                    warmth for a blue planet that is cold with its affection. She graces the sky with these grey clouds,
+                    warmth for a blue planet that is cold with its affection<br> She graces the sky with these grey clouds,
                     so luminous and
-                    dazzling. But how can I describe Mother Nature to a blind child? To a person who chooses to keep
-                    their eyes closed. That
+                    dazzling<br> But how can I describe Mother Nature to a blind child?<br> To a person who chooses to keep
+                    their eyes closed<br> That
                     day we danced in fields with yellow and red roses taking pictures o broken cameras and then you
                     smile, and you remind me
-                    of the sun. I can not tell you what it feels like to be “just friends”. But maybe someday I will
-                    understand.
-                    <br>
-                    <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
+                    of the sun<br> I can not tell you what it feels like to be “just friends"<br> But maybe someday I will
+                    understand
                 </p>
+                <a href="#contents-header"><i class="h2 bi bi-arrow-up-circle-fill" style=></i></a>
             </div>
         </section>
     </div>

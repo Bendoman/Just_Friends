@@ -1,22 +1,32 @@
 body {
     background-color: #182638;
     overflow-x: hidden;
+
 }
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
 .background {
 
-    background-attachment: fixed;
+     background-attachment: fixed; 
+    
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; 
 
     transition: filter 0.35s;
     position: relative;
 
     background-color: #874356;
- 
+ }
+
+@media (max-width: 800px) {
+    .background {
+        background-size: auto;
+        background-attachment: initial;
+    }
 }
 
 
@@ -32,13 +42,15 @@ body {
     height: 100vh;
     background-image: url("images/_Melodious\ hearts_\ Painting\ -\ Dark.jpg");
     background-color: #182638;
-
+    overflow-y: hidden;
 }
 
 
 #main-contents-background {
     /* height: 100vh; */
-    background-image: url("Images/page.jpg");
+    margin-top: -10px;
+    background-image: url("images/page.jpg");
+    background-repeat: repeat-y;
 }
 
 #down-arrow {
@@ -54,7 +66,7 @@ body {
     to{opacity: 1}
 }
 
-.title {
+#title {
     padding: 10px;
     background-color: teal;
     
@@ -65,17 +77,81 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+@media (max-width: 800px) {
+    #title {
+        font-size: 3em;
+    }
+}
+
+
+
 .collapseP {
     max-width: 60vh;
-    height: 30vh;
+    height: 25vh;
     margin-right: 5vh; 
     overflow-y: scroll;
-    background-color: white;
 }
+
+.test {
+    width: 50vh;
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+
+#aboutCollapse p {
+    color: white; 
+}
+
+#aboutCollapse a {
+    text-decoration: none;
+    color: white;
+}
+
+#aboutCollapse a:hover {
+    color:#874356;
+}
+
+#aboutCollapse i {
+    margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+
+    .test {
+        margin-top: -15px;
+        padding: 5px;
+    }
+
+    #aboutCollapse p, #aboutCollapse a {
+       font-size: 12.5px;
+    }
+}
+
+
+
+/* d-flex justify-content-center */
 
 #collapseContainer {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
+
+@media (max-width: 800px) {
+    #collapseContainer {
+       display: block;
+
+    }
+
+    .collapseP {
+        font-size: 15px;
+        margin: auto;
+        margin-top: -120px;
+        margin-bottom: 20px;
+    }
+}
+
 
 a:hover {
     cursor: pointer;
@@ -92,28 +168,16 @@ a:hover {
     padding: 15px;
 }
 
-#contentList {
-    width: 25vh;
-}
-
-#contents-list {
-    color: black;
-    margin-top: 10px;
-    padding-top: 25px;
-}
-
-#contents-list li {
-    margin-top: 16px;
-}
-
 .contents-header {
     text-align: center;
+    margin-top: 30px;
     padding: 15px;
     font-family: 'Dancing Script', cursive;
 
     background-color: #874356b2;
     color: #F6E7D8;
 }
+
 
 #contents-header {
     text-align: center;
@@ -132,10 +196,21 @@ a:hover {
 .poem p {
     padding: 35px;
     margin: auto;
-    text-align: center;
+    text-align: left;
     width: 50%;
     font-weight: 500;
+    line-height: 45px;
 }
+
+@media (max-width: 800px) {
+    .poem p{
+        font-size: 12.5px;
+        padding: 0;
+        width: 75%;
+        line-height: 35px;
+    }
+}
+
 
 #gradient {
     background: hsla(214, 40%, 16%, 1);
@@ -149,24 +224,27 @@ a:hover {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#182638", endColorstr="#874356", GradientType=1 );
 }
 
-#contents-background {
-    height: 100vh;
-    margin: -10px;
-    background-image: url("Images/page.jpg");
+#contentList {
+    width: 25vh;
 }
 
-#contents-background ul {
+#contents-list {
+    margin-top: 10px;
+    padding-top: 25px;
+}
+
+#contents-list ul {
     margin-top: -25px;
 }
 
-#contents-background li {
+#contents-list li {
     /* border-bottom: solid black 2px; */
     text-align: center;
     color: #612f3d;
-    
+    margin-top: 16px;
 }
 
-#contents-background li a {
+#contents-list li a {
     text-decoration: none;
     color: #874356;
     font-weight: bold;
@@ -175,9 +253,15 @@ a:hover {
     display: inline-block;
 }
 
-#contents-background li a:hover {
+#contents-list li a:hover {
     color: #F68989;
     border-bottom: 1px solid #612f3d;
+}
+
+@media (max-width: 800px) {
+    #contents-list li {
+        font-size: 12.5px;
+    }
 }
 
 i {
@@ -199,3 +283,8 @@ i {
 .h2 a i {
     color: #3c6294;
 }
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+	display: none;
+}
+
