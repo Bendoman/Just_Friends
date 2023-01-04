@@ -33,14 +33,14 @@ body {
 
 #top-background {
     height: 100vh;
-    background-image: url("images/_Melodious\ hearts_\ Painting.jpg");
+    background-image: url("images/BannerLight.jpg");
     background-color: #182638;
 
 }
 
 #bottom-background {
     height: 100vh;
-    background-image: url("images/_Melodious\ hearts_\ Painting\ -\ Dark.jpg");
+    background-image: url("images/BannerDark.jpg");
     background-color: #182638;
     overflow-y: hidden;
 }
